@@ -13,11 +13,11 @@ namespace FastSorting
             ThreeItems();
             HundredItems();
             ThousandItems();
-            EmptyItems();
+            EmptyArray();
             Console.ReadKey();
         }
 
-        private static void EmptyItems()
+        private static void EmptyArray()
         {
             int[] array = { };           
             array = QuickSort(array, 0, array.Length - 1);
